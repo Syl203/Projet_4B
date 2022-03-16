@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mer. 16 mars 2022 à 14:03
+-- Généré le : mer. 16 mars 2022 à 14:11
 -- Version du serveur : 10.4.22-MariaDB
 -- Version de PHP : 8.1.1
 
@@ -72,10 +72,7 @@ CREATE TABLE `utilisateurs` (
 --
 
 INSERT INTO `utilisateurs` (`id_user`, `email_user`, `pass_user`) VALUES
-(3, 'mounier.syl20@gmail.com', 'zangetsu'),
-(7, 'mounier.sylv1@gmail.com', 'zangetsusama'),
-(8, 'mail@site.com', 'dede'),
-(9, 'kurosaki@monsite.fr', 'dedesperado');
+(8, 'mail@site.com', 'dede');
 
 --
 -- Index pour les tables déchargées
