@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000000;
+}
+h1{
+    font-size: 26px;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.ajout{
+    position : absolute;
+    top : 20px;
+    right: 200px;
+}
+#form-deco{
+    position : absolute;
+    top : 20px;
+    right: 30px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    text-transform: uppercase;
+    background-color: #6E6E6E;
+    align-items: stretch;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size : 24px;
+    padding-top : 20px;
+}
+header ul li{
+    margin-right: 30px;
+}
+header ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color : #ffc107;
+}
+table, thead, tbody, th, td{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.row{
+    width: 460px;
+    min-height: 300px;
+    background-color: #6E6E6E;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -230px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(255,255,255,1);
+}
+.row-produits, .row-utilisateurs{
+    color: #FFFFFF;
+}
+.row-ajout{
+    color : #FFFFFF;
+    width: 460px;
+    min-height: 300px;
+    background-color: #6E6E6E;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(255,255,255,1);
+}
+.row-ajout textarea{
+    width: 420px;
+    height: 200px;
+}
+.row-ajout #prix_produit{
+    width: 90px;
+}
+.erreur{
+    color :red;
+}
+.produits{
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.produit{
+    width: 300px;
+    min-height : 400px;
+    background-color:#FFFFFF;
+    margin: 0 20px 30px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all .5s ease-out;
+    color : #000000;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+}
+/*.produit:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}*/
+h2{
+    font-size : 20px;
+}
+p.description-produit{
+    font-size:12px;
+    text-align: justify;
+}
